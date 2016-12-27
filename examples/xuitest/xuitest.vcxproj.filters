@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xuitest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xuitest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="xuitest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\about.png" />
+    <Image Include="res\clipboard.png" />
+    <Image Include="res\logo.png" />
+    <Image Include="res\options.png" />
+    <Image Include="res\ts_about.png" />
+    <Image Include="res\ts_autosensing.png" />
+    <Image Include="res\ts_colors.png" />
+    <Image Include="res\ts_ctxmenu.png" />
+    <Image Include="res\ts_effects.png" />
+    <Image Include="res\ts_fonts.png" />
+    <Image Include="res\ts_General.png" />
+    <Image Include="res\ts_hotkey.png" />
+    <Image Include="res\ts_iconsizes.png" />
+    <Image Include="res\ts_Menu.png" />
+    <Image Include="res\ts_metrics.png" />
+    <Image Include="res\ts_Mouse.png" />
+    <Image Include="res\ts_registration.png" />
+    <Image Include="res\ts_skins.png" />
+    <Image Include="res\ts_sysinfo.png" />
+    <Image Include="res\ts_tips.png" />
+    <Image Include="res\ts_Toolbar.png" />
+    <Image Include="res\ts_toolbars.png" />
+    <Image Include="res\ts_transparency.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="xuitest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\cm-settings.xml" />
+    <Xml Include="res\general.xml" />
+    <Xml Include="res\menu.xml" />
+    <Xml Include="res\span.xml" />
+    <Xml Include="res\tlbsettings-ru.xml" />
+    <Xml Include="res\tlbsettings.xml" />
+    <Xml Include="res\toolbar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\xuilib.dtd" />
+  </ItemGroup>
+</Project>
